@@ -7,7 +7,7 @@ function beenPosted(guid) {
     if (guid === "https://securingtomorrow.mcafee.com/?p=77301"){
         return false;
     } else {
-        return false;
+        return true;
     }
 }
 
@@ -56,7 +56,8 @@ function checkNews(session){
                                                 "type": "TextBlock",
                                                 "text": entry.title,
                                                 "size": "medium",
-                                                "weight": "bolder"
+                                                "weight": "bolder",
+                                                "wrap": true
                                             },
                                             {
                                               "type": "TextBlock",

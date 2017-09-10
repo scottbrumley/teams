@@ -6,14 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
-    "botbuilder": "^3.9.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "jade": "~1.11.0",
-    "morgan": "~1.8.1",
-    "restify": "^5.2.0",
-    "serve-favicon": "~2.4.2"
+    "restify": "~5.2.0",
+    "botbuilder": "~3.9.1",
+    "rss-parser": "~2.10.4",
+    "html-md": "~3.0.2"
   }
 }
